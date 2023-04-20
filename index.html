@@ -1,9 +1,11 @@
 <html>
     
  <div class="topnav">
+   <center>
   <a  href="index.html">Home</a>
   <a href="journal.html">Journal</a>
   <a href="Contact.html">Contact</a>
+  </center>
 </div>
 
 <style type="text/css">
@@ -45,7 +47,7 @@
     cursor: pointer;
     border-radius: 25%;
     transition: all 0.2s ease;" 
-    onclick="myFunction()">What is the date?</button>
+    onclick="myFunction()">Current Date</button>
         <p id="demo"></p>
 
 <script>
@@ -53,5 +55,7 @@ function myFunction(){
   setInterval(function(){ document.getElementById('demo').innerHTML=Date()},1000)}
 </script>
 
+
 </center>
+
 </html> 
